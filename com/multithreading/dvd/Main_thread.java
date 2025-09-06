@@ -5,7 +5,8 @@ public class Main_thread{
         w.start();
         for(; ;)
         {
-            System.out.println("Hello");
+           // System.out.println("Hello");
+            System.out.println(Thread.currentThread().getName());
         }
     }
 }
